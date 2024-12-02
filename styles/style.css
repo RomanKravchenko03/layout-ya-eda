@@ -2,8 +2,90 @@
 
 body {
     width: 100vw;
-    height: 100%;
-    padding: 0 340px;
+    height: 100vh;
+    
     font-family: Roboto;
     margin: 0;
+}
+
+button {
+    font-family: Roboto;
+    border: none;
+    border-radius: 5px;
+}
+
+.button {
+    width: 193px;
+    height: 52px;
+    background: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header {
+    padding: 0 340px;
+    background: url("../image/header-background.png") right no-repeat;
+    height: 867px;
+    margin-top:  0;
+    overflow: hidden;
+}
+
+.logo-label {
+    margin-top: 20px;
+    width: 680px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+main {
+    padding-left: 340px;
+}
+
+.logo-text-box {
+    margin-top: 225px;
+}
+
+.logo-title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84.px;
+    margin-bottom: 0;
+}
+
+.logo-subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.logo-subtitle span {
+    font-weight: 700;
+}
+
+.button-courier {
+    width: 398px;
+    height: 77px;
+    font-weight: 400;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    background: #F9E059;
+    margin-top: 48px;
+}
+
+.courier-text-header {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #656565;
+    margin-top: 24px;
 }
